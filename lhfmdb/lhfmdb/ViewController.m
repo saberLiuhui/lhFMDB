@@ -7,8 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "LHManage.h"
-#import "GoodsModel.h"
 
 @interface ViewController ()
 
@@ -64,7 +62,6 @@
     }else{
         for (GoodsModel * model in arrayModel) {
             NSLog(@"\n\n");
-            NSLog(@"查询所有数据的结果");
             NSLog(@"----------------------------------------------");
             NSLog(@"id = %@",model.ID);
             NSLog(@"imageUrl = %@",model.imageUrl);
@@ -83,7 +80,7 @@
 - (void)updateAValueDataWithPRIMARYKEYValue:(NSString*)PRIMARYKEYValue withKey:(NSString*)key withValue:(NSString*)value{
     [[LHManage sharedLH]updateGoodsWithModelClass:[GoodsModel class] withPRIMARYKEYValue:self.goods.ID withKey:@"link" withValue:@"http://www.google.com"];
     //修改完查询
-    NSLog(@"-------------- new ----------------");
+    NSLog(@"----------------new----------------");
     [self searchAValueP:self.goods.ID withKey:@"link"];
 }
 

@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  lhfmdb
+//
+//  Created by 管理员 on 2017/8/24.
+//  Copyright © 2017年 刘辉. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//数据库名
+#define kUser [NSUserDefaults standardUserDefaults]
+#import "LHManage.h"
+#import "GoodsModel.h"
+
+#endif /* PrefixHeader_pch */

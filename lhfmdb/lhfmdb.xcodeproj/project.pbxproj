@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A55637D31F555BDD00FF7036 /* LHManage.m in Sources */ = {isa = PBXBuildFile; fileRef = A55637D21F555BDC00FF7036 /* LHManage.m */; };
 		A557B4D01F4E715F00FEA5BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A557B4CF1F4E715F00FEA5BE /* main.m */; };
 		A557B4D31F4E716000FEA5BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A557B4D21F4E716000FEA5BE /* AppDelegate.m */; };
 		A557B4D61F4E716000FEA5BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A557B4D51F4E716000FEA5BE /* ViewController.m */; };
+		A557B4D91F4E716000FEA5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A557B4D71F4E716000FEA5BE /* Main.storyboard */; };
 		A557B4DB1F4E716000FEA5BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A557B4DA1F4E716000FEA5BE /* Assets.xcassets */; };
 		A557B4DE1F4E716000FEA5BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A557B4DC1F4E716000FEA5BE /* LaunchScreen.storyboard */; };
 		A557B4E91F4E716000FEA5BE /* lhfmdbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A557B4E81F4E716000FEA5BE /* lhfmdbTests.m */; };
 		A557B4F41F4E716000FEA5BE /* lhfmdbUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A557B4F31F4E716000FEA5BE /* lhfmdbUITests.m */; };
 		A557B5071F4ECB7800FEA5BE /* GoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A557B5061F4ECB7700FEA5BE /* GoodsModel.m */; };
-		A599AF532030537F0013E378 /* LHManage.m in Sources */ = {isa = PBXBuildFile; fileRef = A599AF522030537F0013E378 /* LHManage.m */; };
 		D54B70A84FA390DF932BE138 /* libPods-lhfmdb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE122A859FFD0D74D8CF9A37 /* libPods-lhfmdb.a */; };
 /* End PBXBuildFile section */
 
@@ -39,12 +40,15 @@
 /* Begin PBXFileReference section */
 		01E1FB71E7917E3ECAADD1F7 /* Pods-lhfmdb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lhfmdb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lhfmdb/Pods-lhfmdb.debug.xcconfig"; sourceTree = "<group>"; };
 		0A8FE28977E0F808412E24AA /* Pods-lhfmdb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lhfmdb.release.xcconfig"; path = "Pods/Target Support Files/Pods-lhfmdb/Pods-lhfmdb.release.xcconfig"; sourceTree = "<group>"; };
+		A55637D11F555BDC00FF7036 /* LHManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHManage.h; sourceTree = "<group>"; };
+		A55637D21F555BDC00FF7036 /* LHManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHManage.m; sourceTree = "<group>"; };
 		A557B4CB1F4E715F00FEA5BE /* lhfmdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lhfmdb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A557B4CF1F4E715F00FEA5BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A557B4D11F4E715F00FEA5BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A557B4D21F4E716000FEA5BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A557B4D41F4E716000FEA5BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A557B4D51F4E716000FEA5BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A557B4D81F4E716000FEA5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A557B4DA1F4E716000FEA5BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A557B4DD1F4E716000FEA5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A557B4DF1F4E716000FEA5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,10 +58,9 @@
 		A557B4EF1F4E716000FEA5BE /* lhfmdbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lhfmdbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A557B4F31F4E716000FEA5BE /* lhfmdbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lhfmdbUITests.m; sourceTree = "<group>"; };
 		A557B4F51F4E716000FEA5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A557B5011F4E73F400FEA5BE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A557B5051F4ECB7700FEA5BE /* GoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsModel.h; sourceTree = "<group>"; };
 		A557B5061F4ECB7700FEA5BE /* GoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsModel.m; sourceTree = "<group>"; };
-		A599AF512030537E0013E378 /* LHManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHManage.h; sourceTree = "<group>"; };
-		A599AF522030537F0013E378 /* LHManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHManage.m; sourceTree = "<group>"; };
 		EE122A859FFD0D74D8CF9A37 /* libPods-lhfmdb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lhfmdb.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -121,18 +124,20 @@
 		A557B4CD1F4E715F00FEA5BE /* lhfmdb */ = {
 			isa = PBXGroup;
 			children = (
-				A599AF512030537E0013E378 /* LHManage.h */,
-				A599AF522030537F0013E378 /* LHManage.m */,
 				A557B4D11F4E715F00FEA5BE /* AppDelegate.h */,
 				A557B4D21F4E716000FEA5BE /* AppDelegate.m */,
 				A557B4D41F4E716000FEA5BE /* ViewController.h */,
 				A557B4D51F4E716000FEA5BE /* ViewController.m */,
+				A55637D11F555BDC00FF7036 /* LHManage.h */,
+				A55637D21F555BDC00FF7036 /* LHManage.m */,
 				A557B5051F4ECB7700FEA5BE /* GoodsModel.h */,
 				A557B5061F4ECB7700FEA5BE /* GoodsModel.m */,
+				A557B4D71F4E716000FEA5BE /* Main.storyboard */,
 				A557B4DA1F4E716000FEA5BE /* Assets.xcassets */,
 				A557B4DC1F4E716000FEA5BE /* LaunchScreen.storyboard */,
 				A557B4DF1F4E716000FEA5BE /* Info.plist */,
 				A557B4CE1F4E715F00FEA5BE /* Supporting Files */,
+				A557B5011F4E73F400FEA5BE /* PrefixHeader.pch */,
 			);
 			path = lhfmdb;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 			files = (
 				A557B4DE1F4E716000FEA5BE /* LaunchScreen.storyboard in Resources */,
 				A557B4DB1F4E716000FEA5BE /* Assets.xcassets in Resources */,
+				A557B4D91F4E716000FEA5BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A557B4D61F4E716000FEA5BE /* ViewController.m in Sources */,
-				A599AF532030537F0013E378 /* LHManage.m in Sources */,
+				A55637D31F555BDD00FF7036 /* LHManage.m in Sources */,
 				A557B4D31F4E716000FEA5BE /* AppDelegate.m in Sources */,
 				A557B4D01F4E715F00FEA5BE /* main.m in Sources */,
 				A557B5071F4ECB7800FEA5BE /* GoodsModel.m in Sources */,
@@ -397,6 +403,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A557B4D71F4E716000FEA5BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A557B4D81F4E716000FEA5BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		A557B4DC1F4E716000FEA5BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -506,7 +520,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 38V368WVKA;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/lhfmdb/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -527,7 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 38V368WVKA;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/lhfmdb/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",

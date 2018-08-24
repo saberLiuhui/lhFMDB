@@ -1,7 +1,24 @@
 platform :ios, '8.0'
 target 'lhfmdb' do
-
-pod 'FMDB'
-
+#pod "AFNetworking"
+#pod "Masonry"
+#pod "SDWebImage","~> 3.7.2"
+#pod "SVProgressHUD"
+#pod "MJExtension"
+#pod "UMengAnalytics"
+#pod "JSONKit"
+#pod "KZRickLabel"
+#pod 'UMengUShare/UI'
+#pod "UMengUShare/Social/ReducedWeChat"
+#pod "UMengUShare/Social/ReducedQQ"
+#pod "UMengUShare/Social/ReducedSina"
+#pod 'Hyphenate'
+##pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git', :tag => '3.3.2'
+#pod 'Pingpp', '~> 2.1.0'
+#pod 'AgoraRtcEngine_iOS', '~> 1.11.1'
+#pod "Protobuf"
+pod "FMDB"
+#pod 'ASIHttpRequest', '~> 1.8.2'
+#pod 'Reachability', '~> 3.1.1'
 
 end
